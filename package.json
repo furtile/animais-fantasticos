@@ -1,0 +1,27 @@
+{
+    "name": "sites",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --mode production",
+        "dev": "webpack --mode development --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.14.3",
+        "@babel/core": "^7.14.3",
+        "@babel/preset-env": "^7.14.2",
+        "eslint": "^7.26.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.23.3",
+        "webpack": "^5.37.1",
+        "webpack-cli": "^4.7.0"
+    },
+    "dependencies": {
+        "@babel/polyfill": "^7.12.1",
+        "whatwg-fetch": "^3.6.2"
+    }
+}

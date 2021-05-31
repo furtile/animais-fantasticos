@@ -7,8 +7,8 @@ export default class Modal {
         // Bind this ao callback para
         // fazer referencia ao objeto
         // da classe
-        this.eventToggleModal = this.eventToggleModal.bind(this);
-        this.cliqueForaModal = this.cliqueForaModal.bind(this);
+        // this.eventToggleModal = this.eventToggleModal.bind(this);
+        // this.cliqueForaModal = this.cliqueForaModal.bind(this);
     }
 
     // Abre ou fecha o modal
@@ -17,18 +17,18 @@ export default class Modal {
     }
 
     // Adiciona o evento de toggle ao modal
-    eventToggleModal(event) {
+    eventToggleModal = (event) => {
         console.log(this);
         event.preventDefault();
         this.toggleModal();
-    }
+    };
 
     //  Fecha o modal ao clicar do lado de fora
-    cliqueForaModal(event) {
+    cliqueForaModal = (event) => {
         if (event.target === this.containerModal) {
             this.toggleModal();
         }
-    }
+    };
 
     // Adiciona os eventos aos elementos do modal
     addEventModal() {

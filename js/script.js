@@ -39,4 +39,3 @@ fetchBitcoin('https://blockchain.info/ticker', '.btc-preco');
 initAnimacaoScroll();
 
 fetchAnimais('../animaisapi.json', '.numeros-grid');
-console.log('Resolvido');

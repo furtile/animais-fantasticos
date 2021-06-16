@@ -46,4 +46,4 @@ funcionamento.init();
 
 fetchBitcoin('https://blockchain.info/ticker', '.btc-preco');
 
-fetchAnimais('./animaisapii.json', '.numeros-grid');
+fetchAnimais('./animaisapi.json', '.numeros-grid');
